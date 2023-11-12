@@ -1,0 +1,14 @@
+Q3. Using any of the Pseudo element selectors, add any random words after and before the given HTML tag.
+<! -- given HTML code -->
+«body>
+<h1>- element -</h1>
+</body>
+<! -- Expected Output -->
+<! -- Pseuo - element - selector -->
+->1
+h1: :after {
+content: "selector" ;
+}
+h1: :before {
+content: "Pseudo";
+}
